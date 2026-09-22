@@ -1,0 +1,77 @@
+{%extends 'base.html'%}
+{% load static %}
+{%block content%}
+<section class="hero" id="home">
+
+    <h1>Hello, I'm Aahil</h1>
+
+    <h2>Python & Django Developer</h2>
+
+    <p>
+        I am a fresher Python and Django developer passionate about
+        building web applications and learning backend development.
+    </p>
+
+    <a href="#projects">View My Projects</a>
+
+</section>
+
+<section class="About"  id="about">
+    <div>
+        <p>I am a fresher Python & Django Developer with a strong interest in backend web development. I enjoy building
+            web applications and improving my programming skills through practical projects.</p>
+        <p>Education: BCA (IGNOU)</p>
+        <p>Role: Python & Django Developer</p>
+        <p>Location: Delhi, India</p>
+        <p>Skills: Python, Django, HTML, CSS, SQL, Git & GitHub</p>
+        <div>
+        <img src="{% static 'images/photo.jpg' %}" alt="Profile Image">
+</div>
+    </div>
+</section>
+<section class="Skills" id="skills">
+    <div>Python</div>
+    <div>Django</div>
+    <div>HTML</div>
+    <div>CSS</div>
+    <div>JavaScript</div>
+    <div>SQL</div>
+    <div>Git</div>
+    <div>GitHub</div>
+</section>
+
+<section class="Projects" id="projects">
+    <<section class="Projects" id="projects">
+
+    <div>
+        <h3>1. Expense Tracker</h3>
+        <p>A Django-based web application to manage and track daily expenses by category, amount, and date.</p>
+        <a href="#projects">View Project</a>
+    </div>
+
+    <div>
+        <h3>2. Student Management System</h3>
+        <p>A Django web application for managing student information such as name, course, marks, and basic details.</p>
+        <a href="#projects">View Project</a>
+    </div>
+
+    <div>
+        <h3>3. Job Application Tracker</h3>
+        <p>A Python-based application to track job applications, company details, job roles, and application status.</p>
+        <a href="#projects">View Project</a>
+    </div>
+
+    <div>
+        <h3>4. Portfolio Website</h3>
+        <p>A personal portfolio website built with Django to showcase my skills, projects, education, and contact information.</p>
+        <a href="#projects">View Project</a>
+    </div>
+
+</section>
+<section class="Contact" id="contact">
+    <h4>Get In Touch</h4>
+    <a href="mailto:your@email.com">Email</a>
+    <a href="https://www.linkedin.com/">LinkedIn</a>
+    <a href="https://github.com/">GitHub</a>
+</section>
+{%endblock%}
